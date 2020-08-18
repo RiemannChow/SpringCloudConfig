@@ -2,3 +2,10 @@ control:
   limit:
     number: 20
     time: 10000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
