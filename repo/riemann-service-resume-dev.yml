@@ -1,0 +1,5 @@
+riemann:
+  message: hello riemann
+
+mysql:
+  url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf8
